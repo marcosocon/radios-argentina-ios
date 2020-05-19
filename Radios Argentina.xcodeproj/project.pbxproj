@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B13DD22224749B5E00260E69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13DD22124749B5E00260E69 /* AppDelegate.swift */; };
 		B13DD22424749B5E00260E69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13DD22324749B5E00260E69 /* SceneDelegate.swift */; };
-		B13DD22624749B5E00260E69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13DD22524749B5E00260E69 /* ViewController.swift */; };
+		B13DD22624749B5E00260E69 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13DD22524749B5E00260E69 /* StationsViewController.swift */; };
 		B13DD22924749B5E00260E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13DD22724749B5E00260E69 /* Main.storyboard */; };
 		B13DD22B24749B6200260E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13DD22A24749B6200260E69 /* Assets.xcassets */; };
 		B13DD22E24749B6200260E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13DD22C24749B6200260E69 /* LaunchScreen.storyboard */; };
+		B1EC9B2124749DC000E46692 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC9B2024749DC000E46692 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B13DD21E24749B5E00260E69 /* Radios Argentina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radios Argentina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13DD22124749B5E00260E69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B13DD22324749B5E00260E69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B13DD22524749B5E00260E69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B13DD22524749B5E00260E69 /* StationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
 		B13DD22824749B5E00260E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B13DD22A24749B6200260E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B13DD22D24749B6200260E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B13DD22F24749B6200260E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EC9B2024749DC000E46692 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		B13DD22024749B5E00260E69 /* Radios Argentina */ = {
 			isa = PBXGroup;
 			children = (
+				B13DD23524749BDF00260E69 /* Controllers */,
 				B13DD22124749B5E00260E69 /* AppDelegate.swift */,
 				B13DD22324749B5E00260E69 /* SceneDelegate.swift */,
-				B13DD22524749B5E00260E69 /* ViewController.swift */,
 				B13DD22724749B5E00260E69 /* Main.storyboard */,
 				B13DD22A24749B6200260E69 /* Assets.xcassets */,
 				B13DD22C24749B6200260E69 /* LaunchScreen.storyboard */,
 				B13DD22F24749B6200260E69 /* Info.plist */,
 			);
 			path = "Radios Argentina";
+			sourceTree = "<group>";
+		};
+		B13DD23524749BDF00260E69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B13DD22524749B5E00260E69 /* StationsViewController.swift */,
+				B1EC9B2024749DC000E46692 /* PlayerViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B13DD22624749B5E00260E69 /* ViewController.swift in Sources */,
+				B13DD22624749B5E00260E69 /* StationsViewController.swift in Sources */,
+				B1EC9B2124749DC000E46692 /* PlayerViewController.swift in Sources */,
 				B13DD22224749B5E00260E69 /* AppDelegate.swift in Sources */,
 				B13DD22424749B5E00260E69 /* SceneDelegate.swift in Sources */,
 			);

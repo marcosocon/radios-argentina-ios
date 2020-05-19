@@ -10,9 +10,20 @@ import UIKit
 
 class StationsViewController: UIViewController {
 
+    @IBAction func onListenButtonPress(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "GoToPlayerScreen", sender: self)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "GoToPlayerScreen" {
+            let playerVC = segue.destination as! PlayerViewController
+            playerVC.stationName = "Testing Bananas"
+        }
     }
 
 
